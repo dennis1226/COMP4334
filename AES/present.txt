@@ -1,0 +1,32 @@
+p.8 
+We have an assumption in the program, we assume that Eve knows a certain vocabulary in the plaintext.​
+
+For example, COMP4334 is a good subject, COMP4334 or is or good these we need to know one of the word​
+
+The program will compile the correct key based on the vocabulary
+
+
+
+P.9
+The AES-128 encryption has a 128-bit or 16-byte long key used for encryption and later decryption.​
+
+To save the time, we assume we already know 12 bytes, so only 4 bytes are left to guess.
+The key we set is random. Normally, it can be done in an hour or less.
+​
+These are our codes, where we restrict the search to only the last 2 bytes,
+ because the program may have run-time errors that take too long.
+
+​​
+P. 10
+In AES program, if Eve knows the first vocabulary of the plaintext, the program will effectively crack the complete plaintext.
+But if Eve knows the second vocabulary in plaintext, 
+the program will take a lot of time, because it is difficult to use the known second vocabulary to decrypt the first vocabulary,
+ it will take at least 1 hour to decrypt.
+
+
+P. 11
+The AES encrypts require more calculations power and are more difficult to implement. 
+AES is a suitable encryption method if Alice and Bob have enough time. 
+Each block of AES is encrypted in the same way. 
+At the same time, AES encryption can compress any plaintext size to a fixed size.
+ It also uses an algebraic structure, which can effectively avoid attacks. AES also uses RSA for key distribution.
